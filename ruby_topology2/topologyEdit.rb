@@ -88,7 +88,6 @@ str_readline = str_readlines[n_readline]
 n_slice = str_readline.to_i
 n_readline += 1
 for i in 0...n_slice do
-  slice_names[i] = Array.new
   slice_hosts[i] = Array.new
   slice_hostname[i] = Array.new
   slice_hostip[i] = Array.new
